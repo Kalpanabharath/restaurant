@@ -3,9 +3,117 @@
   padding: 0;
   box-sizing: border-box;
 }
-.logoimg {
-  width: 50px;
-  height: 40px;
-  padding: 2px;
-  filter: invert(1);
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4 {
+  color: #323f4b;
+}
+.logo {
+  width: 80px;
+  height: 70px;
+}
+.herosection-bg-container {
+  width: 100%;
+  height: 100vh;
+  background: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.hero-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+}
+.hero-para {
+  color: #f5f7fa;
+
+  font-size: 24px;
+  font-weight: 300;
+}
+.custon-btn-bg {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-btn-outine {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  min-height: 270px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-discription {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-card-title-heading {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
 }
