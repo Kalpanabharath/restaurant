@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.bg-body-white {
+  background-color: white;
+}
 #navItem1,
 #navItem2,
 #navItem3,
 #navItem4 {
   color: #323f4b;
+  font-size: 19px;
 }
 .logo {
   width: 80px;
@@ -24,10 +28,11 @@
   color: white;
   font-size: 45px;
   font-weight: 500;
+  font-family: "Roboto";
 }
 .hero-para {
   color: #f5f7fa;
-
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: 300;
 }
@@ -39,6 +44,7 @@
   border-width: 0;
   border-radius: 8px;
   margin-right: 10px;
+  font-family: "Roboto";
 }
 .custom-btn-outine {
   color: #d0b200;
