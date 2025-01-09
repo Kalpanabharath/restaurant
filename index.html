@@ -149,9 +149,9 @@
     <!-- why choose us  end-->
     <!-- Explore more -->
     <div class="explore-menu-section" id="exploremenu">
-      <div class="container py-3">
-        <div class="row">
-          <div class="col-12">
+      <div class="container py-5">
+        <div class="row g-md-5">
+          <div class="col-12 text-center">
             <h1 class="menu-section-heading">Explore Menu</h1>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -480,7 +480,59 @@
             <p class="thanking-customer-section-discription">
               We have a surprise gift for you
             </p>
-            <button class="custom-button d-none d-md-block">Redeem Gift</button>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="custom-button d-none d-md-block"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Redeem Gift
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title gift-title fs-5"
+                      id="exampleModalLabel"
+                    >
+                      Gift Voucher
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png"
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Second Column -->
           <div class="col-12 text-center col-md-6">
