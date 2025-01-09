@@ -13,6 +13,13 @@
   color: #323f4b;
   font-size: 19px;
 }
+#navItem1:hover,
+#navItem2:hover,
+#navItem3:hover,
+#navItem4:hover {
+  color: #d0b200; /* Hover color */
+}
+
 .logo {
   width: 80px;
   height: 70px;
@@ -219,4 +226,7 @@
   color: #959ead;
   font-family: "Roboto";
   font-size: 14px;
+}
+.thanking-customer-section {
+  background-color: #d0b2001a;
 }
